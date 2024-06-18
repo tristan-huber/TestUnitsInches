@@ -1,0 +1,14 @@
+{
+    "atomType": "Molecule",
+    "name": "TestUnitsInches",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 1718742023356,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsIndex": 0,
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1
+}

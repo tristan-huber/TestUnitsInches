@@ -81,7 +81,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": 19
+                    "ioValue": 0.75
                 }
             ]
         }

@@ -8,15 +8,19 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718742032855,
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.34010416666666665,
+            "y": 0.5253456221198157,
+            "uniqueID": 1718742050489,
             "ioValues": [
                 {
-                    "name": "number or geometry",
-                    "ioValue": 1718742078277
+                    "name": "geometry",
+                    "ioValue": 1718742041933
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
                 }
             ]
         },
@@ -34,19 +38,19 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.34010416666666665,
-            "y": 0.5253456221198157,
-            "uniqueID": 1718742050489,
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.5921875,
+            "y": 0.41705069124423966,
+            "uniqueID": 1718742078277,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1718742041933
+                    "ioValue": 1718742073024
                 },
                 {
-                    "name": "height",
-                    "ioValue": 10
+                    "name": "Material Thickness",
+                    "ioValue": 0.75
                 }
             ]
         },
@@ -69,31 +73,20 @@
             "cutTag": true
         },
         {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.5921875,
-            "y": 0.41705069124423966,
-            "uniqueID": 1718742078277,
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718742032855,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1718742073024
-                },
-                {
-                    "name": "Material Thickness",
-                    "ioValue": 0.75
+                    "name": "number or geometry",
+                    "ioValue": 1718742078277
                 }
             ]
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718742041933,
-            "ap2ID": 1718742050489
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
@@ -104,9 +97,9 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718742073024,
-            "ap2ID": 1718742078277
+            "ap2Primary": true,
+            "ap1ID": 1718742041933,
+            "ap2ID": 1718742050489
         },
         {
             "ap1Name": "geometry",
@@ -114,6 +107,13 @@
             "ap2Primary": false,
             "ap1ID": 1718742078277,
             "ap2ID": 1718742032855
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718742073024,
+            "ap2ID": 1718742078277
         }
     ],
     "unitsIndex": 0,
